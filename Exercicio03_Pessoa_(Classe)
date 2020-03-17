@@ -1,0 +1,72 @@
+public class PessoaPrincipal {      //Atributos da classe
+		private String Nome;
+		private String Endereco;
+		private String Telefone;
+		private String Email;
+		private String RG;
+
+
+		public PessoaPrincipal(){ //método sem parametro
+			this ("","","","","");
+			
+		}
+
+		public PessoaPrincipal(String Nome, String Endereco, String Telefone,String Email, String RG) {  //método com parametro
+			    
+			this.Nome = Nome;   
+			this.Endereco = Endereco;
+			this.Telefone = Telefone;
+			this.Email = Email;
+			this.RG = RG;
+		}
+		
+		public String getNome(){ 
+			return Nome;
+		}
+		
+		public void setNome (String Nome){
+			this.Nome = Nome;
+		}
+		
+		public String getEndereco(){
+			return Endereco;
+		}
+		
+		public void setEndereco(String Endereco){
+			this.Endereco = Endereco;
+		}
+		
+		public String getTelefone(){
+			return Telefone;
+		}
+		
+		public void setTelefone (String Telefone){
+			this.Telefone = Telefone;
+		}
+		
+		public String getEmail(){
+			return Email;
+		}
+		
+		public void setEmail(String Email){
+			this.Email = Email;
+		}
+		
+		public String getRG(){
+			return RG;
+		}
+		
+		public void setRG(String RG){
+			this.RG = RG;
+		}
+		
+		public void ApresentarPessoa(){
+			System.out.println("Nome: " + this.getNome());
+			System.out.println("Endereço: " + this.getEndereco());
+			System.out.println("Telefone: " + this.getTelefone());
+			System.out.println("Email: " + this.getEmail());
+			System.out.println("RG: " + this.getRG());
+			
+		}
+		
+	}
