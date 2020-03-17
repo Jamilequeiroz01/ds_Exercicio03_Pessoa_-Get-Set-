@@ -1,0 +1,10 @@
+public class PessoaPrincipal2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		    //Instanciando 
+		PessoaPrincipal pessoa = new PessoaPrincipal ("Jamile Queiroz", "Barro Branco 234", "97654-3456", "Jamilequeiroz1@gmail.com", "55.765.873-6");
+		pessoa.ApresentarPessoa(); //Apresentando
+	}
+
+}
